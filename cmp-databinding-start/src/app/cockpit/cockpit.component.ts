@@ -20,7 +20,7 @@ export class CockpitComponent implements OnInit, OnChanges {
     serverName: string;
     serverContent: string;
   }>();
-
+ 
   @Output()
   blueprintCreated = new EventEmitter<{
     serverName: string;
